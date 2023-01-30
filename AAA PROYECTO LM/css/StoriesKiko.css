@@ -49,3 +49,9 @@ nav {
 body {
     background-image: radial-gradient(at 20px 20px,  black 40%, rgba(238, 242, 0, 1) 20%, rgba(191, 25, 224, 1)40%);
 }
+
+.estilologo{
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+}
