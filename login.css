@@ -1,0 +1,150 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4278e4;
+    color: white;
+    padding: 10px;
+    height: 13vh;
+}
+
+
+.logo
+{
+    height: 10vh;
+    width: 10vh;
+    margin: 1vh 3vh 1vh 2vh;
+}
+
+.fondo
+{
+    background-image: url(/fotos/CiudadFondo.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+main
+{
+    background-color: rgb(50, 204, 235);
+    min-height: 87vh;
+    justify-content: space-around;
+    display: flex;
+    
+}
+
+.unlogin
+{
+    max-width: 20vh;
+    max-height: 18vh;
+    z-index: 10;
+    margin-top: 6vh;
+    border-radius: 10vh 10vh 8vh 8vh;
+}
+
+.trans
+{
+    background-color: rgba(216, 169, 235, 0.655);
+    width: 40vh;
+    opacity: 0.5;
+}
+
+main>form
+{
+   
+    color: white;
+    padding:  7vh 5vh 5vh 5vh;
+    max-width: 40vh;
+    height: 60vh;
+    margin-top: 20vh;
+    position: absolute;
+    border-radius: 8vh;
+    border: solid;
+    border-color: rgb(249, 218, 81);
+    z-index: 5;
+    backdrop-filter: blur(1vh);
+
+}
+
+.recuadro
+{
+    height: 5vh;
+    border-radius: 1vh;
+
+}
+
+
+/*** ESTILOS BOTÓN SLIDE LEFT ***/
+.sesion 
+{
+    background: rgb(255, 255, 255); /* color de fondo */
+    color: #8f58bc; /* color de fuente */
+    border: 2px solid #8f58bc; /* tamaño y color de borde */
+    padding: 10px 20px;
+    border-radius: 7vh; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+}
+.sesion:hover 
+{
+    color: #fff; /* color de fuente hover */
+}
+.sesion::after
+{
+    content: "";
+    background: #8f58bc; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.sesion:hover::after 
+{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+
+
+.olvidar
+{
+    color: rgb(101, 248, 241);
+    margin-top: 3vh;
+    text-align: center;
+}
+
+div
+{
+    margin-bottom: 2vh;
+}
+
+.enlace
+{
+    color: rgb(101, 248, 241);
+}
+.nuevo
+{
+    margin-top: 2vh;
+    text-align: center;
+    margin-bottom: 4vh;
+}
