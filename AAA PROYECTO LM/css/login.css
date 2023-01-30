@@ -25,7 +25,7 @@ header {
 
 .fondo
 {
-    background-image: url(/fotos/CiudadFondo.png);
+    background-image: url(../fotos/CiudadFondo.png);
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center center;
