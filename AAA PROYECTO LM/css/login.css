@@ -44,9 +44,9 @@ main
 {
     max-width: 20vh;
     max-height: 18vh;
-    z-index: 10;
+    z-index: 10; /* Por qué modificas el z-index*/
     margin-top: 6vh;
-    border-radius: 10vh 10vh 8vh 8vh;
+    border-radius: 10vh 10vh 8vh 8vh; /*Para un border-radius mejor usar píxeles*/
 }
 
 .trans
@@ -64,7 +64,7 @@ main>form
     max-width: 40vh;
     height: 60vh;
     margin-top: 20vh;
-    position: absolute;
+    position: absolute; /*Usar flexbox*/
     border-radius: 8vh;
     border: solid;
     border-color: rgb(249, 218, 81);
