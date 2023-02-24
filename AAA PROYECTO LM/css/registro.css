@@ -14,7 +14,7 @@ header
 .logo
 {
     margin: 0.5vw;
-    float: left; 
+    float: left; /*Float evitar*/
     height: 10vh;
     width: 10vh;
     margin: 1vh 3vh 1vh 2vh;
@@ -32,7 +32,7 @@ main
 
 h1
 {
-    float: center;
+    float: center; /*Esto no existe*/
     font-size: 25pt;
     margin: 0;
 }
@@ -91,7 +91,7 @@ form
 {
     text-align: center;
     position:initial;
-    justify-content: space-around;
+    justify-content: space-around; /*No tiene sentido si no aparece display:flex*/
     width: 28vw;
     height: 45vh;
     color: white;
@@ -127,7 +127,7 @@ main
 
     
     display: flex;
-    justify-content: absolute;
+    justify-content: absolute;/*No existe*/
 
 
     align-items: center; 
